@@ -10,10 +10,10 @@ ECHO.
 
 CALL:runsql "1 Create Databases"
 CALL:runsql "2 Create Schema"
-CALL:runsql "3 Data\SalesPipeline"
-CALL:runsql "3 Data\EntityDB"
-CALL:runsql "3 Data\Vision"
-CALL:runsql "3 Data\ClientPortal"
+CALL:runsql "3 Data\AA"
+CALL:runsql "3 Data\BB"
+CALL:runsql "3 Data\CC"
+CALL:runsql "3 Data\DD"
 
 EXIT /B %ERRORLEVEL%
 
